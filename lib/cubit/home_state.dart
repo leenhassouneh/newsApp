@@ -4,8 +4,6 @@ part of 'home_cubit.dart';
 abstract class HomeState {}
 
 class HomeInitial extends HomeState {}
-// class HomePrintHiLeenState extends HomeState {}
-// class HomePrintHiFahedState extends HomeState {}
 
 class HomeChangeNavBar extends HomeState {}
 class HomeGetBusinessDataLoading extends HomeState {}
