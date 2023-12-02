@@ -10,14 +10,14 @@ import 'cubit/home_cubit.dart';
 void main()async {
 
 
-  //HttpHelper.LoginUserFromApi();
+
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
     return MultiBlocProvider(
